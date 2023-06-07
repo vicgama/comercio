@@ -9,11 +9,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class LojaController {
 	
 	@GetMapping("/listar")
-	public void listarProdutos() {
+	public String listarProdutos() {
 		
-		System.out.println("LISTA DE PRODUTOS!");{
 		
 		return "produtos";
-
+		}
 }
-} 
