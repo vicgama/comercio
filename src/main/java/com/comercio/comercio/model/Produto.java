@@ -4,7 +4,7 @@ public class Produto {
 
 	private Long id;
 	private String nome;
-	private String descrição;
+	private String descricao;
 	private String codigoBarras;
 	private double preco;
 	
@@ -27,11 +27,12 @@ public class Produto {
 	public String getNome() {
 		return nome;
 	}
-	public void setDescrição(String descrição) {
-		this.descrição = descrição;
+	
+	public String getDescricao() {
+		return descricao;
 	}
-	public String getDescrição() {
-		return descrição;
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
 	}
 	public void setCodigoBarras(String codigoBarras) {
 		this.codigoBarras = codigoBarras;
